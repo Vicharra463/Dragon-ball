@@ -9,8 +9,11 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .title{
+    font-size: 30px;
     display: flex;
     justify-content: center;
+    color: rgb(231, 157, 20);
+    
 }
 .searh{
     display: flex;
@@ -95,7 +98,16 @@ input:hover {
     height: 500px;
 }
 .header{
-    background-color: #FF9E21;
-    color: black;
+    background-color: #413636;
+    color: rgb(128, 113, 54);
     padding: 50px;
+}
+.logo-image img{
+  width: 150px;
+  height: 150px;
+}
+.header-sp{
+    background-color: #1d1c1c;
+    display: flex;
+    justify-content: space-between;
 }
