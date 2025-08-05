@@ -18,16 +18,17 @@ body{
     margin-top: 20px;
 }
 .buscador{
-    height: 40px;
+    height: 50px;
     font-size: 20px;
-    width: 350px;
-    border-radius: 10px;
-    border: #8FFFED 5px solid;
+    width: 700px;
+    border-radius: 5px;
+    border: white solid;
 }
-.buscador:hover{
-    border: #F2976D 5px solid;
-    transition: 0.3s;
+input:hover {
+
+  box-shadow: none;
 }
+
 .container{
     display: grid;
     margin-top: 20px;
@@ -45,7 +46,7 @@ body{
 }
 .content {
   text-align: center;
-  background-color: red;
+ background: radial-gradient(circle,rgba(255, 147, 15, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(255, 217, 3, 1) 100%);
      border-radius: 15px;
         
 }
@@ -66,9 +67,19 @@ body{
   margin-top: 0;
   margin-bottom: 0; 
 }
+.content p {
+  font-size: 16px;
+  color: rgb(255, 145, 0);
+
+}
+.content h2 {
+  font-size: 20px;
+  color: white;
+}
 .description{
-    background-color: aquamarine;
-    border-radius: 15px;
+    background-color: rgb(85, 85, 85);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .filtro{
     display: none;
