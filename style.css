@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7D7775;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.searh{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buscador{
+    height: 40px;
+    font-size: 20px;
+    width: 350px;
+    border-radius: 10px;
+    border: #8FFFED 5px solid;
+}
+.buscador:hover{
+    border: #F2976D 5px solid;
+    transition: 0.3s;
+}
+.container{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    margin: 5px;
+    border: 5px solid black;
+    height: auto;
+     overflow: visible;
+     border-radius: 18px;
+     cursor: pointer;
+}
+.content {
+  text-align: center;
+  background-color: red;
+     border-radius: 15px;
+        
+}
+.tittle{
+    text-align: center;
+}
+.content img{
+    width: 200px;
+    height: 400px; 
+}
+.content img:hover {
+  transform: scale(1.1); /* agranda un 10% */
+  z-index: 10; /* lo pone por encima de otros elementos */
+  transition: 0.5s; /* suaviza la transición */
+}
+.content h2,
+.content p {
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+.description{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.filtro{
+    display: none;
+}
+.mensaje{
+    display: none;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.mensaje img{
+    width: 500px;
+    height: 500px;
+}
+.header{
+    background-color: #FF9E21;
+    color: black;
+    padding: 50px;
+}
