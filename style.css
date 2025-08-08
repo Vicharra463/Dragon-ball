@@ -129,7 +129,7 @@ input:hover {
         text-align: center;
     }
     .card{
-        width: 400px;
+        width: 300px;
         margin: 10px 0;
     }
     .card img{
@@ -148,6 +148,10 @@ input:hover {
     .mensaje img{
         width: 300px;
         height: 300px;
+    }
+    .container{
+         justify-items: center;
+         align-items: center;
     }
 }
 
