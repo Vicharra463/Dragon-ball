@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background:#7D7775;
+}
+.contenedor {
+    display: flex;
+    border:  2px solid black;
+    width: 1100px;
+    justify-content: center;
+    border-radius: 10px;
+background: linear-gradient(90deg,rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+.contenedor img{
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.main{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+.separator{
+    border: 1.5px solid black;
+}
+.main h1{
+    text-align: start;
+}
+.main h2{
+    text-align: start;
+}
+.Biografia{
+    margin-top: 20px;
+}
+.espacio{
+    justify-items: center;
+    align-items: center;
+    margin: 140px;
+}
+.info-item{
+    display: flex;
+}
+.item{
+    padding-right: 140px;
+}
+.item2{
+    padding-right: 130px;
+}
+.item3{
+    padding-right: 90px;
+}
+.item4{
+    padding-right: 110px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    border-radius: 15px;
+    background-color: orange;
+}
+a {
+    text-decoration: none;
+    color: rgb(139, 31, 31);
+} 
+@media (max-width: 600px) {
+    
+}
